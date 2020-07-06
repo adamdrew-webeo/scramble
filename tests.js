@@ -10,10 +10,10 @@ describe('StringScramble', () => {
   it('should return false when str1 can not be rearranged to match str2', () => {
     const result = StringScramble('h3llko', 'hello');
     expect(result).to.be.false;
-  })
+  });
 
   it('should return false when char has to be used twice', () => {
     const result = StringScramble('rkqodlw', 'worldd');
     expect(result).to.be.false;
-  })
-})
+  });
+});
